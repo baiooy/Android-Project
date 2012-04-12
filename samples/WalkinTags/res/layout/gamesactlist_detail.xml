@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="6px"
+	android:paddingLeft="20px"
+	android:paddingRight="20px" >
+	
+<RelativeLayout
+	android:id="@+id/listRelativeLayout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gamelist_actlist_cell1"
+>
+	<TextView 
+	android:id="@+id/TextView_paoku" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingLeft="50px"
+	android:paddingTop="20px"
+	android:textSize="32px"
+	android:textStyle="bold"
+	android:text="跑酷"
+	android:textColor="#ef4857"
+	/>
+	<TextView 
+	android:id="@+id/TextView_paoku_neirong" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="22px"
+	android:paddingLeft="50px"
+	android:paddingRight="20px"
+	android:layout_marginTop="10px"
+	android:paddingTop="40dip"
+	android:paddingBottom="10dip"
+	android:textStyle="bold"
+	android:text="跑酷是这样进行的你知道什么啊？不知道就问我吧"
+	android:textColor="#7f796e"
+	/>
+</RelativeLayout>
+</LinearLayout>

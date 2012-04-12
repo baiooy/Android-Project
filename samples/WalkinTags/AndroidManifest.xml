@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.walkin.walkin"
+      android:versionCode="3"
+      android:versionName="1.0.2"
+      android:installLocation="auto"
+      >
+      
+         <supports-screens android:resizeable="true"
+                      android:smallScreens="true" 
+                      android:normalScreens="true" 
+                      android:largeScreens="true" 
+                      android:anyDensity="true" />
+      
+      
+     <application android:icon="@drawable/icon" android:label="@string/app_name"
+    		>
+        <activity android:name=".SplashActivity"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+        >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    	<activity android:name=".ReceiveInBiActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/Transparent"></activity>
+		<activity android:name=".InbiExchangeActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+    	<activity android:name=".LoginRegistrationActivity"  android:label="@string/app_name"
+    		android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustUnspecified|stateHidden"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".MeActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".LeaderBoardListActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".CheckinsHistoryListActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>		
+		<activity android:name=".NotificationsListActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>		
+		<activity android:name=".NotificationsListDetailActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>		
+		<activity android:name=".InviteFrendsActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".BrandsDetailActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".MeInBiDetailView"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>	
+		<activity android:name=".HoorSelectionActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>	
+		 <activity android:name=".GamesActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+			<activity android:name=".BrandsActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		  <activity android:name=".InActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		  <activity android:name=".SettingWebActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		  <activity android:name=".IndexActivity" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+	      <activity android:name=".StoreHomeActivity" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		  <activity android:name=".StringOGLTutorial"
+		  	android:theme="@android:style/Theme.NoTitleBar"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+        </activity>
+          <activity android:name=".StringOGLTutorialInStore"
+                  android:label="@string/app_name"
+                  	android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+        </activity>
+		
+		<activity android:name=".FrameMarkersEffect"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		
+		  <activity android:name=".ProductMainActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		  <activity android:name=".DealsActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".DealsShowDetailActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+			<activity android:name=".DealsShowActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		
+		<activity android:name=".GamesActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".GameInfoActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".GamesActListActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".InStoreDetailActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".InStoreGamesActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".InStoreActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".RedeemGiftActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>		
+		<activity android:name=".MainActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+			
+		<activity android:name=".RegistrationActivity"  android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustUnspecified|stateHidden"
+			android:configChanges="keyboardHidden|orientation"></activity>
+	    <activity android:name=".GenderAgeActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		 <activity android:name=".UserStyleActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".BadgesGridActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".GamesActListDetailActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<activity android:name=".BadgesListActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>	
+		<activity android:name=".BadgesDetailActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>	
+		<activity android:name=".SettingActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>	
+			<uses-library android:name="com.google.android.maps" />
+		<activity android:name=".BaseMapActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<!-- test  -->
+			<activity android:name=".MarkerListActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+			<activity android:name=".InStoreMarkerListActivity"  android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="keyboardHidden|orientation"></activity>
+		<!-- end test -->
+		 <activity android:name=".SocialRegistrationActivity"
+           	android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+			
+        </activity>
+        <activity android:name=".SocialSendWeiboActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateVisible|adjustResize"
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
+         <activity android:name=".SocialCommentAndRepostActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateVisible|adjustResize"
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".SocialActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity android:name=".SocialDetailActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
+         <activity android:name=".SocialUpdateUserActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+			  <intent-filter>
+		        <action android:name="android.intent.action.VIEW" />
+		        <category android:name="android.intent.category.DEFAULT" />
+		        <category android:name="android.intent.category.BROWSABLE" />
+		         <data android:scheme="weibo4android" android:host="SocialUpdateUserActivity" /> 
+			</intent-filter>
+        </activity>
+        	     <activity android:name=".AuthorizationAct"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+			 </activity>
+		<activity
+			android:name=".TransparentBadgesActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/Transparent"/>  
+		<!--<activity
+			android:name=".StringBlackActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			/>  
+			--><activity
+			android:name=".TransparentCameraActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/Transparent"/>
+		<activity
+			android:name=".TransparentAllActivity"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation"
+			android:theme="@style/TransparentHalf"
+		/>
+		 
+		    <activity android:name=".HoorSelectionPopActivity"   android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <meta-data android:value="4ecb09c45270153546000046" android:name="UMENG_APPKEY"></meta-data>
+    </application>
+    	<uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />  <!-- 在SDCard中创建与删除文件权限 允许装备或解除可移除的存储仓库的文件系统 --> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 往SDCard写入数据权限 允许应用写（非读）用户的外部存储器 -->  
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!-- 允许应用访问网络上的信息 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/><!-- 允许读取电话的状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" /><!-- 允许应用去写入接入点设置 -->
+    <uses-permission android:name="android.permission.READ_LOGS"/><!-- 许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/><!--
+   	<uses-permission android:name="android.permission.SEND_SMS"/>
+   	<uses-permission android:name="android.permission.READ_SMS"/>
+   	<uses-permission android:name="android.permission.RECEIVE_SMS"/>-->
+   	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.SET_ORIENTATION" /> <!-- 允许低级别的设置屏幕的方向 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/> 
+    <uses-sdk android:minSdkVersion="8" />
+    
+     <uses-feature android:glEsVersion="0x00020000" />
+
+</manifest> 

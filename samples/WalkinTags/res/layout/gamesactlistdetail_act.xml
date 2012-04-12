@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<TextView 
+    android:id="@+id/TextView_cmd_topbar"
+	android:textSize="20dip"  
+	android:gravity="center" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="@color/status_text"
+	android:layout_alignParentTop="true"
+	android:background="@drawable/common_topbar"
+/>
+	<Button 
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="3px"
+	android:layout_marginTop="6px"
+	android:textSize="18px"
+	android:text="0"
+	android:gravity="right"
+	android:paddingLeft="2px"
+	android:paddingTop="8px"
+	android:textColor="#A83092"
+	android:textStyle="bold"
+	android:id="@+id/Button_ME" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	>
+	</Button>
+		<Button 
+	android:id="@+id/goback" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/goback_touch_gb"
+	android:layout_marginLeft="20px"
+	android:layout_marginTop="8px"
+	>
+	</Button>
+<RelativeLayout  
+    android:id="@+id/RelativeLayout_bottom"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+>
+ <Button android:id="@+id/Button_top_logo"
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="6px"
+	android:textColor="#000000"
+	android:textStyle="bold"
+	android:background="@drawable/common_walkin_logo"
+	 />
+</RelativeLayout>
+<RelativeLayout  
+    android:id="@+id/RelativeLayout_bottom"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:paddingLeft="2px"
+    android:layout_marginTop="36px"
+>
+ <Button android:id="@+id/Button_top_arrow"
+	android:layout_width="22px"  
+	android:layout_height="14px" 
+	android:background="@drawable/cmd_arrow"
+	 />
+</RelativeLayout>
+<RelativeLayout  
+    android:id="@+id/RelativeLayout_bottom"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_alignParentBottom="true"
+>
+</RelativeLayout>
+<ScrollView 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scrollbars="vertical"
+		android:background="@drawable/game_detail_bg"
+    android:layout_below="@id/TextView_cmd_topbar"
+    android:layout_above="@id/RelativeLayout_bottom"
+>
+<LinearLayout
+	android:id="@+id/LinearLayout_list"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|top"
+>
+<TextView
+	android:layout_marginTop="40px"
+	android:gravity="center" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="跑酷"
+	android:textSize="36px"
+	android:textColor="@color/red"
+	android:id="@+id/TextView_title"
+/>
+<ImageView 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content" 
+	android:id="@+id/ImageView_thumbnail"
+	android:layout_marginTop="20px"
+/>  
+<TextView
+	android:layout_margin="40px"
+	android:gravity="center" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="使用IN币可以兑换此商品 我们将寄往您的指定地址"
+	android:textSize="20px"
+	android:textColor="#7f796e"
+	android:id="@+id/TextView_excerpt"
+
+/>
+<TextView
+	android:layout_marginRight="40px"
+	android:layout_marginLeft="40px"
+	android:gravity="center" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="使用IN币可以兑换此商品 我们将寄使用IN币可以兑换此商品 我们将寄往您的指定地址使用IN币可以兑换此商品 我们将寄往您的指定地址使用IN币可以兑换此商品 我们将寄往您的指定地址往您的指定地址"
+	android:textSize="20px"
+	android:textColor="#7f796e"
+	android:id="@+id/TextView_content"
+/>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

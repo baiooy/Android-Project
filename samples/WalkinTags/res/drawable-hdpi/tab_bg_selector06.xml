@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+  <selector xmlns:android="http://schemas.android.com/apk/res/android">  
+      <item android:state_selected="true"  
+            android:drawable="@drawable/cmd_floor_buttom" /> <!-- selected -->  
+      <item android:drawable="@drawable/cmd_floor_buttom" /> <!-- default -->  
+  </selector>

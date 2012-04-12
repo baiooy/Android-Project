@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/bg_colour"
+>
+<TextView 
+    android:id="@+id/TextView_cmd_topbar"
+	android:textSize="20dip"  
+	android:gravity="center" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true"
+	android:background="@drawable/common_topbar_wuarrace"
+/>
+<Button 
+android:id="@+id/goback" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:background="@drawable/goback_touch_gb"
+android:layout_marginLeft="20px"
+android:layout_marginTop="8px"
+>
+</Button>
+<RelativeLayout  
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+>
+ <Button android:id="@+id/Button_walkin_logo"
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="6px"
+	android:textColor="#000000"
+	android:textStyle="bold"
+	android:background="@drawable/common_walkin_logo"
+	 />
+</RelativeLayout>
+<RelativeLayout  
+    android:id="@+id/RelativeLayout_bottom"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentBottom="true"
+>
+</RelativeLayout>
+
+<ScrollView 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:scrollbars="vertical"
+    android:layout_below="@id/TextView_cmd_topbar"
+    android:layout_marginBottom="20px"
+>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8d5d2"
+>
+<TextView 
+    android:id="@+id/TextView_title"
+	android:textSize="20px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="法律"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/LinearLayout_aboutour"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center"
+>
+<TextView 
+    android:id="@+id/TextView_aboutour"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="关于我们"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/LinearLayout_terms"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center"
+>
+<TextView 
+    android:id="@+id/TextView_terms"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="服务条款"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8d5d2"
+>
+<TextView 
+    android:id="@+id/TextView_title"
+	android:textSize="20px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="设置"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="版本号"
+	android:layout_marginLeft="20px"
+/>
+<TextView 
+    android:id="@+id/TextView_Versionnumber"
+	android:textSize="26px"  
+	android:gravity="right" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="1.0"
+	android:layout_weight="1"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="创建号码"
+	android:layout_marginLeft="20px"
+/>
+<TextView 
+    android:id="@+id/TextView_cnumber"
+	android:textSize="26px"  
+	android:gravity="right" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="8ejkd88s0028asdfasdfasdf89x912123as"
+	android:layout_weight="1"
+	android:singleLine="true"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="创建时间"
+	android:layout_marginLeft="20px"
+/>
+<TextView 
+    android:id="@+id/TextView_ctime"
+	android:textSize="26px"  
+	android:gravity="right" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="8ejkd88s0028asdfasdfasdf89x912123as"
+	android:layout_weight="1"
+	android:singleLine="true"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="分享签到信息"
+	android:layout_weight="1"
+	android:layout_marginLeft="20px"
+/>
+<ToggleButton  
+    android:id="@+id/ToggleButton_ischeck"
+	android:gravity="center" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textOn=""
+	android:textOff=""
+	android:disabledAlpha="2.0"
+	android:layout_marginTop="2px"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="教程设置"
+	android:layout_weight="1"
+	android:layout_marginLeft="20px"
+/>
+<ToggleButton  
+    android:id="@+id/ToggleButton_isTransparentAll"
+	android:gravity="center" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textOn=""
+	android:textOff=""
+	android:disabledAlpha="2.0"
+	android:layout_marginTop="2px"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+    android:id="@+id/LinearLayout_checknewversion"
+>
+<TextView 
+	 android:id="@+id/TextView_checknewversion"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="检测新版本"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+    android:id="@+id/LinearLayout_cache"
+>
+<TextView 
+	 android:id="@+id/TextView_cache"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="清理缓存"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8d5d2"
+>
+<TextView 
+    android:id="@+id/TextView_title"
+	android:textSize="20px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="社交"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+    android:id="@+id/LinearLayout_outweibo"
+>
+<TextView 
+	 android:id="@+id/TextView_outweibo"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="退出微博"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#d8d5d2"
+>
+<TextView 
+    android:id="@+id/TextView_title"
+	android:textSize="20px"  
+	android:gravity="left" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="我"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+ 	android:id="@+id/LinearLayout_outwalkin"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+	 android:id="@+id/TextView_outwalkin"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="退出walkin"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center"
+>
+<TextView 
+
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="我的账号"
+	android:layout_marginLeft="20px"
+/>
+<TextView 
+    android:id="@+id/TextView_walkin_name"
+	android:textSize="26px"  
+	android:gravity="right" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="baiooy@163.com"
+	android:layout_weight="1"
+	android:singleLine="true"
+	android:layout_marginRight="20px"
+/>
+</LinearLayout>
+
+<LinearLayout
+ 	android:id="@+id/LinearLayout_updatename"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+	 android:id="@+id/TextView_updatename"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="编辑头像和用户名"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+<LinearLayout
+ 	android:id="@+id/LinearLayout_Preferences"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:background="@drawable/common_place_bg"
+    android:gravity="center_vertical"
+>
+<TextView 
+	 android:id="@+id/TextView_Preferences"
+	android:textSize="26px"  
+	android:gravity="left" 
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content"
+	android:textColor="#565656"
+	android:text="编辑个人资料"
+	android:layout_marginLeft="20px"
+/>
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

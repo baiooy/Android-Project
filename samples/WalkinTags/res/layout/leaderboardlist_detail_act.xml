@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="10px"
+ >
+	
+<RelativeLayout
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/common_place_bg"
+	android:paddingTop="10px" 
+	android:paddingBottom="10px">
+	
+	<TextView android:id="@+id/user_num" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:gravity="center"
+	android:layout_marginTop="20px"
+	android:layout_marginLeft="30px"
+	android:text="1"
+	android:textSize="30px"
+	android:textColor="#000000"
+	/>
+	<ImageView android:id="@+id/user_img" 
+	android:layout_width="70px"
+    android:layout_height="70px" 
+ 	android:layout_gravity="center"
+	android:layout_marginTop="14px"
+	android:layout_marginLeft="20px"
+	android:layout_toRightOf="@id/user_num"
+	 />	
+	<TextView android:id="@+id/user_name" 
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+ 	android:layout_gravity="center"
+	android:adjustViewBounds="true"
+	android:textSize="24px"  
+	android:layout_marginTop="6px"
+	android:layout_marginLeft="12px"
+	android:textColor="#646159"
+	android:textStyle="bold"
+	android:text="11111111"
+	android:layout_toRightOf="@id/user_img"
+ 	/>
+	<TextView android:id="@+id/inbi_num" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textSize="24px"  
+	android:layout_marginTop="6px"
+	android:layout_marginLeft="12px"
+	android:text="IN币"
+	android:textStyle="bold"
+	android:layout_toRightOf="@+id/user_img"
+	android:layout_below="@+id/user_name"/>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_colour"
+>
+	<TextView 	
+    android:id="@+id/TextView_cmd_topbar"
+	android:textSize="20dip"  
+	android:gravity="center" 
+	android:layout_width="fill_parent"  
+	android:layout_height="wrap_content"
+	android:layout_alignParentTop="true"
+	android:background="@drawable/common_topbar_wuarrace"
+	/>
+	<Button 
+	android:id="@+id/goback" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/goback_touch_gb"
+	android:layout_marginLeft="20px"
+	android:layout_marginTop="8px"
+	>
+	</Button>
+<RelativeLayout  
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+>
+ <TextView android:id="@+id/Button_top_logo"
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="6px"
+	android:textColor="@color/green"
+	android:textStyle="bold"
+	android:textSize="28px"
+	android:text="InBi兑换站"
+	 />
+</RelativeLayout>
+<RelativeLayout  
+    android:id="@+id/RelativeLayout_bottom"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60px"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/toolbar_top"
+>
+	<Button 
+	android:id="@+id/bt_home"   
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="bottom"
+	android:layout_marginTop="5px"
+	android:layout_marginRight="30px"
+	android:layout_alignParentRight="true"
+   >
+   </Button>
+	<Button  
+	android:layout_marginLeft="50px" 
+	android:id="@+id/bt_arrow_left"     
+	android:layout_width="wrap_content"  
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="5px"
+	android:layout_gravity="bottom"/>
+	<Button  
+	android:layout_marginLeft="50px" 
+	android:id="@+id/bt_arrow_right" 
+	android:layout_marginTop="5px"
+	android:layout_toRightOf="@id/bt_arrow_left" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="bottom"/>
+</RelativeLayout>
+
+    <WebView 
+        android:layout_below="@id/TextView_cmd_topbar"
+    android:layout_above="@id/RelativeLayout_bottom"
+    android:id="@+id/mwebview" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    /> 
+</RelativeLayout>
